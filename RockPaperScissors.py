@@ -5,7 +5,7 @@ MAX = 3
 def main():
     playAgain = 'y'
     while playAgain == 'y':
-        playChoice = int(input("Enter 1 for rock, 2 for paper or 3 for scissors "))
+        playChoice = int(input("Enter 1 for rock, 2 for paper or any other number for scissors "))
         if playChoice == 1:
              print("you have chosen Rock")
         elif playChoice == 2:
